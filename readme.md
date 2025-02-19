@@ -1,5 +1,37 @@
-A Repository for learning basic git. 
+# Git Workshop for ITX students. :rocket: 
 
-Workshop for Graduates Tietoevry.
+:warning:️ Do not use `git push` for this exercise!
 
-<3
+
+## Task 1: 
+
+Add a new file with name note-1.txt and make a commit on a brand new branch. Lets call it feat/note-1
+
+Take a look at your graph with `git log --oneline --graph`
+
+Lets merge:
+
+1. `git checkout main`
+2. `git merge feat/note-1 --no-ff` 
+
+Take a look at your graph again with `git log --oneline --graph`
+
+Skip git push for now.
+
+
+## Task 2: 
+
+Checkout feat/note-2, and take a look with git graph. Note that feat/note-2 branch should be behind of your main branch.
+
+Lets rebase branch 2 before we merge it like in step 1.
+
+1. `git rebase main`
+2. `git checout main`
+3. `git merge feat/note-2 --no-ff`
+
+Take a look at your graph again with `git log --oneline --graph`
+
+
+##Task 3: 
+
+Do the same with `feat/note-3` without looking at previous steps. Remember to rebase before merging to keep the graph clean!
