@@ -35,3 +35,8 @@ Take a look at your graph again with `git log --oneline --graph`
 ## Task 3: 
 
 Do the same with `feat/note-3` without looking at previous steps. Remember to rebase before merging to keep the graph clean!
+
+
+## Task 4:
+
+It is time to make your own git repository. This could be done to an existing project without using Git, or you can just start a new project to play it around. Head over to Github.com and try to make your own git repo!
