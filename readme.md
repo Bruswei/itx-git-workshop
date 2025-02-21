@@ -1,4 +1,4 @@
-# Git Workshop for ITX students. :rocket: 
+# Git Workshop for ITx students. :rocket: 
 
 :warning:️ Do not use `git push` for this exercise!
 
