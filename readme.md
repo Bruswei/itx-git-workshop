@@ -5,7 +5,13 @@
 
 ## Task 1: 
 
-Add a new file with name note-1.txt and make a commit on a brand new branch. Lets call it feat/note-1
+Add a new file with name note-1.txt and make a commit on a brand new branch. Lets call it `feat/note-1`
+
+Lets make a new branch:
+
+`git checkout -b feat/note-1`
+
+Now use `git status`, `git add feat/note-1`, `git commit -m "Add first note"` to make a new commit.
 
 Take a look at your graph with `git log --oneline --graph`
 
@@ -17,7 +23,6 @@ Lets merge:
 Take a look at your graph again with `git log --oneline --graph`
 
 Skip git push for now.
-
 
 ## Task 2: 
 
@@ -34,7 +39,7 @@ Take a look at your graph again with `git log --oneline --graph`
 
 ## Task 3: 
 
-Do the same with `feat/note-3` without looking at previous steps. Remember to rebase before merging to keep the graph clean!
+Do the same with `feat/note-3` without looking at previous steps, make a commit with `note-3` on branch `feat/note-3`. Remember to rebase before merging to keep the graph clean!
 
 
 ## Task 4:
