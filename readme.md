@@ -26,7 +26,7 @@ Checkout feat/note-2, and take a look with git graph. Note that feat/note-2 bran
 Lets rebase branch 2 before we merge it like in step 1.
 
 1. `git rebase main`
-2. `git checout main`
+2. `git checkout main`
 3. `git merge feat/note-2 --no-ff`
 
 Take a look at your graph again with `git log --oneline --graph`
